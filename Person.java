@@ -1,7 +1,7 @@
-
+// Define the Person class with attributes and constructors
 class Person {
-    String name;  
-    int age;      
+    String name;  // Person's name
+    int age;      // Person's age
 
     // Parameterized constructor
     public Person(String name, int age) {
@@ -31,4 +31,7 @@ public class PersonDemo {
         Person person2 = new Person();
 
         // Displaying the details of both persons
-        person1.display
+        person1.displayPerson();
+        person2.displayPerson();
+    }
+}
